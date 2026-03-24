@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Declara el tipo de documento. Indica al navegador que usara HTML5 -->
+<html lang="es">
+<!-- Elemento principal del documento HTML. lang="es indica que el contenido esta en "español" -->
+
+<head> <!-- Seccion de configuracion del documento -->
+    <meta charset="UTF-8">
+    <!-- Define la codificacion de caracteres. 
+    UTF-8 permite usar correctamente tildes, ñ, simbolos, etc-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hace que el sitio sea responsive. 
+    permite que el diseño se adapte correctamente a celulares y tablest-->
+    <title>Practicando HTML - img y video</title>
+    <!-- Titulo que aparece en el navegador-->
+    <meta name="author" content="Nicolas Silva">
+    <!-- Indica quien creo el sitio web -->
+
+    <link rel="stylesheet" href="static/css/style.css">
+    <!-- Conexion con hoja CSS de estilos -->
+</head>
+
+<body>
+    <header> <!-- Encabezado del documento -->
+        <h1>Sitio multimedia personal</h1>
+    </header>
+    <hr> <!-- Crea una lina de division -->
+    <main> <!-- Seccion principal del documento-->
+        <h2>Mis datos:</h2>
+        <p>nombre: Nicolas silva<br> <!--br es un salto de linea-->
+            Curso: 3°c
+        </p>
+        <hr>
+        <h2>Galeria multimedia</h2>
+        <p>Imagen de ejemplo</p>
+        <img src="static/images/imagen1.jpg" alt="primera imagen" width="300">
+        <img src="static/images/imagen2.jpg" alt="primera imagen" width="300">
+        <img src="static/images/imagen3.jpg" alt="primera imagen" width="300">
+        <hr>
+        <h2>Videos</h2>
+        <video width="600" controls>
+        <source src="static/video/Cookie Clicker The Hardest Achievement - Dragoon (720p, h264).mp4" type="video/mp4">
+    </video>
+    <video width="600" controls>
+        <source src="static/video/This Modded Item Turns You Into Gojo - Kayhos (1080p, h264).mp4" type="video/mp4">
+    </video>
+    </main>
+    <footer>
+        <p style="text-align: center">
+            todos los derechos reservados-<a href="https://www.youtube.com/">mas informacion</a> <!-- etiqueta <a> para vinculoa -->
+    </p>
+    </footer>
+</body>
+
+</html>
